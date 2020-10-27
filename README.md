@@ -42,4 +42,13 @@
 
 7. Wait until Zerobot or one of the maintainers merges your pull request. If there are any conflicts, you will get a notification.
 
-8. That's all. You're just completed beginner guide to github. :smiley: :tada: :confetti_ball:
+8. If you run into a **merge conflict**, you have to resolve the conflict. For that follow the steps below.
+
+	```bash
+    git remote add upstream https://github.com/Sunera-2216/github-get-started.git
+    git pull upstream master
+    ```
+
+   Need to know more about merge conflicts? Visit [here](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-merge-conflicts).
+
+9. That's all. You're just completed beginner guide to github. :smiley: :tada: :confetti_ball:
